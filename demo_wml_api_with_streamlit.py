@@ -91,7 +91,10 @@ def answer_questions():
     get_credentials()
 
     # Web app UI - title and input box for the question
-    st.title('🌠Test watsonx.ai LLM')
+    st.title('🌻Test watsonx.ai LLM 🌻')
+    st.text('Studi Independen Hacktiva Assignment 5')
+    st.text('Nama : Destina Grace Fajarwati 🫶🏽😊')
+    st.text('SI604004')
     user_question = st.text_input('Ask a question, for example: What is IBM?')
 
     # If the quesiton is blank, let's prevent LLM from showing a random fact, so we will ask a question
